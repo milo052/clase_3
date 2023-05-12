@@ -33,7 +33,7 @@ color: black;
 }
 
 .body{
-    background-image:  url("../padel.jpg");
+    background-image:  url("./padel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
