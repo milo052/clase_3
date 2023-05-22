@@ -1,19 +1,35 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+
+.body{
+    background-image:  url("./padel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+} 
+
+.input-group{
+         display: flex;
+         justify-content: center;
+         align-items: center;         
 }
 
 form{
-    padding: 50px  55px;
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
     border-radius: 20px;
     text-align: center;
-    width: 340; 
-    background-color: white;   
+    background-color: white; 
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0;
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px; 
+    position: absolute;
+    top: 50%;
+    left: 30%;
 }
 
 label{
@@ -32,8 +48,3 @@ border: 2px solid #f0faf1;
 color: black;
 }
 
-.body{
-    background-image:  url("./padel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
